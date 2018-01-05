@@ -1,0 +1,69 @@
+html{
+	height: 100%;
+}
+body{
+ 	margin: 0;
+	height: 100%;
+}
+.case{
+	height: 5.25%;
+	width: 2.5%;
+	position: absolute;
+}
+
+#map{
+	width: 100%;
+    height: 100%;
+    background: url("backgroundRickMorty.jpg") no-repeat top fixed;
+    background-size: cover;
+}
+.peach{
+
+}
+
+.ligne{
+	height: 30px;	
+}
+
+.mario{
+	transition: all 25ms;
+}
+
+.koopa{
+	transition: all 200ms;
+}
+
+#startback{
+	transform: translateY(0);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("startBackground.gif");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#loose{
+	z-index: 1;
+	transform: translateY(0);
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	background: url("gameOver.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#win{
+	z-index: 1;
+	transform: translateY(0);
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	background: url("win.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
